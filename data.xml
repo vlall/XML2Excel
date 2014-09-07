@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<User Name="Demo" ID="19231300" SubType="Adult" Sex="Male" DOB="05201993" Condition="A" Difficulty="EASY">
+  <Time>21 min 59 sec </Time>
+  <Direction>270 85</Direction>
+  <Direction>44 264</Direction>
+  <Direction>316 90</Direction>
+  <Direction>334 178</Direction>
+  <Direction>89 358</Direction>
+  <Direction>270 90</Direction>
+  <Direction>280 1</Direction>
+  <Direction>33 179</Direction>
+  <Direction>44 269</Direction>
+  <Direction>44 270</Direction>
+  <Direction>270 90</Direction>
+  <Direction>327 177</Direction>
+  <Direction>316 84</Direction>
+  <Direction>44 270</Direction>
+  <Direction>270 90</Direction>
+  <Direction>360 267</Direction>
+  <Direction>270 89</Direction>
+  <Direction>63 359</Direction>
+  <Direction>270 90</Direction>
+  <Direction>297 0</Direction>
+  <Direction>87 269</Direction>
+  <Direction>26 180</Direction>
+</User>
