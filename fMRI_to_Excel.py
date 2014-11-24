@@ -2,10 +2,20 @@
 # MAKE SURE YOU ARE IN THE RIGHT DIRECTORY!
 # Just change this variable 'subjectList' to include all of the subjects you wants to run.
 
+import xlwt
+
+#Flag A. This is for making an excel workbook.
+wb = xlwt.Workbook()
+
+
 subjectList = ['SCM01','SCM02','SCM03','SCM04','SCM05','SCM06','SCM07','SCM08','SCM09','SCM10','SCM11']
 
 for j in subjectList:
     subject = j
+    
+    #Flag A
+    ws = wb.add_sheet('%s', % (subject))
+    
     path = subject + '/sceneFace/'
     with open(path+"NEW_ROI_Names.txt", "r") as myfile:
         roiFile = myfile.readlines()
@@ -32,3 +42,9 @@ for j in subjectList:
         csvFile.write( "%s,%s,%s\n" % (roiFile[i].rstrip(),faceFile[i].rstrip(),sceneFile[i].rstrip()))
     csvFile.close()
     print len(roiFile)
+    
+    
+    
+    # Flag A: Adding Excel wrting Features
+#    ws.write(row, 0, str(y*i) + unit)
+#    row = row + 1
